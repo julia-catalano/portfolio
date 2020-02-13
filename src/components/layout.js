@@ -34,10 +34,15 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
+        <footer
+          style={{
+            fontSize: `10px`,
+            fontFamily: `arial`,
+          }}
+          >
+          portfolio built by playing around with
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a href="https://www.gatsbyjs.org">gatsby</a>
         </footer>
       </div>
     </>
