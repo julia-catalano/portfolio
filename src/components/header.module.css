@@ -1,8 +1,31 @@
-.header {
-  background: lightcoral;
-  margin-bottom: 1.45rem;
+.header-container {
+  margin-bottom: 2rem;
   width: 100%;
-  overflow: hidden;
+  height: 5rem;
+  display: block;
+  border-bottom: 2px solid salmon
+  }
+
+.navigation-wrapper {
+  height: 78px;
+  padding-left: 3.57143vw;
+  padding-right: 3.57143vw;
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  margin: .5rem;
+
+}
+
+.header-image {
+  height: 75px;
+  width: 75px;
+  position: relative;
 }
 
 .nav-list {
