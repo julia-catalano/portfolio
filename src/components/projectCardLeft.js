@@ -3,9 +3,9 @@ import React from 'react'
 
 const ProjectCardLeft = (props) => {
   return (
-    <div>
-      <img source={props.imageUrl} alt={props.imageAlt}/>
-      <div>
+    <div className="card-container">
+      <img className="card-image" source={props.imageUrl} alt={props.imageAlt}/>
+      <div className="card-content">
         <h2>{props.title}</h2>
         <h3>{props.date}</h3>
         <p>{props.description}</p>
