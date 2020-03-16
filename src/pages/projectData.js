@@ -13,8 +13,8 @@ const projects = [
   {
     title: 'cindr',
     date: '2019',
-    imageUrl: '',
-    imageAlt: '',
+    imageUrl: '../images/cindrScreenshot.png',
+    imageAlt: 'A screenshot of a web application. A question on the screen, asking the user to choose between two answers.',
     description: 'A choose-your-own-adventure style dating app. Instead of filling out lengthy profiles with basic information, users are matched based on an interactive experience that gives insight to their personality.',
     technologies: 'Phaser3, React, Redux, React-Redux, Node.js, Express, PostgreSQL, Sequelize, Socket.io',
     team: 'Developed in collaboration with Petra Laohakul, Darshin Van Parijs, and Kimberly Zawacki.',
@@ -24,8 +24,8 @@ const projects = [
   {
     title: 'alack',
     date: '2019',
-    imageUrl: '',
-    imageAlt: '',
+    imageUrl: '../images/alackScreenshot.png',
+    imageAlt: 'A screenshot of a web application. A text box accepts a title from a book, a button submits that title, and the result tells the book sentiment',
     description: 'An app to answer that burning question: will this classic novel make me cry?',
     technologies: 'Vue.js, Express, PostgreSQL, Sequelize, Google Sentiment Analysis API',
     team: 'Solo project.',
@@ -35,8 +35,8 @@ const projects = [
   {
     title: 'to-ma-to to-mah-to',
     date: '2019',
-    imageUrl: '',
-    imageAlt: '',
+    imageUrl: '../images/graceShopperScreenshot.png',
+    imageAlt: 'A screenshot of a web application. An e-commerce website selling tomatoes.',
     description: 'A mock e-commerce website that offers fresh tomato plants from our garden. Built by members of the 1907 Grace Hopper cohort to fulfill the requirements for the Grace Shopper project.',
     technologies: 'Node.js, Express, React, Redux, PostgreSQL, Sequelize',
     team: 'Developed in collaboration with Jacqueline Zheng, Kat Le, and Pelin Dogan',

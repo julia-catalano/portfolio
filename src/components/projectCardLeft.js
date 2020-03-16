@@ -1,22 +1,28 @@
 import { Link } from 'gatsby'
 import React from 'react'
+import CindrImg from '../images/cindrScreenshot.png'
+import TomatoImg from '../images/graceShopperScreenshot.png'
 
 const ProjectCardLeft = (props) => {
   return (
     <div className="card-container">
-      <img className="card-image" source={props.imageUrl} alt={props.imageAlt}/>
-      <div className="card-content">
-        <h2>{props.title}</h2>
-        <h3>{props.date}</h3>
-        <p>{props.description}</p>
-        <p>stack: {props.technologies}</p>
-        <p>team: {props.team}</p>
-        <p>
-        <a href={props.github}>github</a>
-        </p>
-        <p>
-          { props.deployed ? <a href={props.deployed}></a> : null }
-        </p>
+      <div className='card-image-div'>
+      <img className="card-image" src={props.title === 'cindr' ? CindrImg : TomatoImg } alt={props.imageAlt}/>
+      </div>
+      <div className="card-content-wrapper-left">
+        <h3>{props.title}</h3>
+        <h5 className="project-text-item">{props.date}</h5>
+        <p className="project-text-item">{props.description}</p>
+        <p className="project-text-item">stack: {props.technologies}</p>
+        <p className="project-text-item">team: {props.team}</p>
+        <div className="card-link">
+          <p className="project-text-item">
+          <a href={props.github}>github > </a>
+          </p>
+          <p className="project-text-item">
+            { props.deployed ? <a href={props.deployed}>deployed > </a> : null }
+          </p>
+        </div>
       </div>
     </div>
   )

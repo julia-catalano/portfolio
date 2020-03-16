@@ -621,3 +621,64 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  box-sizing: border-box;
+  flex: 0 1 auto;
+  flex-direction: row;
+}
+
+.card-content-wrapper-left {
+  margin-left: 80px;
+  font-size: 16px;
+  font-family: Ginto,helvetica,"sans-serif";
+  font-weight: 200;
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+  flex-basis: 35.71429vw;
+  width: 35.71429vw;
+}
+
+.card-content-wrapper-right {
+  font-family: Ginto,helvetica,"sans-serif";
+  font-size: 16px;
+  font-weight: 200;
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+  flex-basis: 35.71429vw;
+  width: 35.71429vw;
+}
+
+.project-text-item {
+  margin-bottom: .5rem;
+}
+
+
+.card-image-div {
+  flex: 0 0 auto;
+  flex-basis: 42.85714vw;
+  width: 42.85714vw;
+}
+
+.card-link a {
+    text-decoration: none;
+    color: black;
+    font-family: Ginto,helvetica,"sans-serif";
+    font-weight: 600;
+
+}
+
+.card-link a:hover {
+  color: grey;
+}
+
