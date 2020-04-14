@@ -9,7 +9,6 @@ import ProjectData from './projectData'
 const Projects = () => (
   <Layout>
     <SEO title="Projects" />
-    <h1>Hi from the projects space</h1>
     <div>
       {ProjectData.map((project,index) => {
           if (index % 2 === 0) {

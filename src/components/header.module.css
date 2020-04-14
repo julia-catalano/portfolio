@@ -1,7 +1,7 @@
 .header-container {
   margin-bottom: 2rem;
   width: 100%;
-  height: 5rem;
+  height: 4rem;
   display: block;
   border-bottom: 2px solid salmon
   }
@@ -18,13 +18,14 @@
   position: relative;
   justify-content: space-between;
   align-items: center;
-  margin: .5rem;
-
+  
 }
 
 .header-image {
-  height: 75px;
-  width: 75px;
+  margin-top: 10px;
+  margin-left: 50px;
+  height: 45px;
+  width: 45px;
   position: relative;
 }
 

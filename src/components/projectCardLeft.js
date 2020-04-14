@@ -10,18 +10,15 @@ const ProjectCardLeft = (props) => {
       <img className="card-image" src={props.title === 'cindr' ? CindrImg : TomatoImg } alt={props.imageAlt}/>
       </div>
       <div className="card-content-wrapper-left">
-        <h3>{props.title}</h3>
-        <h5 className="project-text-item">{props.date}</h5>
-        <p className="project-text-item">{props.description}</p>
-        <p className="project-text-item">stack: {props.technologies}</p>
-        <p className="project-text-item">team: {props.team}</p>
+        <p className="project-text-item-title">{props.title}</p>
+        <p className="project-text-item-description">{props.description}</p>
         <div className="card-link">
           <p className="project-text-item">
-          <a href={props.github}>github > </a>
+          <a className="project-link" href={props.github}>github > </a>
+          { props.deployed ? <a className="project-link" href={props.deployed}> deployed > </a> : null }
           </p>
-          <p className="project-text-item">
-            { props.deployed ? <a href={props.deployed}>deployed > </a> : null }
-          </p>
+        <p className="project-text-item-stack">{props.technologies}</p>
+        <p className="project-text-item-team">{props.team}</p>
         </div>
       </div>
     </div>
