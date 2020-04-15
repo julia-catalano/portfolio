@@ -659,6 +659,7 @@ pre tt:after {
   flex-direction: column;
   flex: 0 0 auto;
   flex-basis: 35.71429vw;
+  margin-right: 4rem;
 }
 
 .card-content-wrapper-right {
@@ -676,6 +677,7 @@ pre tt:after {
   flex: 0 0 auto;
   flex-basis: 35.71429vw;
   width: 35.71429vw;
+  margin-left: 4rem;
 }
 
 
@@ -754,3 +756,23 @@ pre tt:after {
   margin-right: 4rem;
 }
 
+.homepage-container {
+  display: flex;
+}
+
+.homepage-image {
+  width: 70%;
+  margin: 0;
+}
+
+.homepage-name {
+  font-size: 48px;
+}
+
+.homepage-detail {
+  font-size: 16px;
+}
+
+.homepage-content {
+  margin-top: 8rem;
+}
