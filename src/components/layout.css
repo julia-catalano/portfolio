@@ -687,7 +687,7 @@ pre tt:after {
 
 
 .project-text-item-description {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   font-size: 20px;
   font-weight: 500;
 }
@@ -721,7 +721,22 @@ pre tt:after {
   margin: 1rem;
 }
 
+.project-text-item-link-container {
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  margin-bottom: .5rem;
+}
+
 .card-link a:hover {
   color: grey;
+}
+
+.arrow-image {
+  width: 100px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 4rem;
 }
 
