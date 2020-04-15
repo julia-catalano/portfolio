@@ -629,6 +629,10 @@ pre tt:after {
   }
 }
 
+.projects-div {
+  margin-top: 6rem;
+}
+
 .card-container {
   display: flex;
   align-items: center;
@@ -638,6 +642,7 @@ pre tt:after {
   flex: 0 1 auto;
   flex-direction: row;
   overflow: hidden;
+  margin-bottom: 50px;
 }
 
 .card-content-wrapper-left {
@@ -645,11 +650,10 @@ pre tt:after {
   padding-top: 50px;
   padding-right: 10px;
   padding-bottom: 10px;
-  margin-bottom: 50px;
   font-size: 16px;
   font-family: Ginto,helvetica,"sans-serif";
   font-weight: 200;
-  height: 100%;
+  height: 390px;
   width: auto;
   display: flex;
   flex-direction: column;
@@ -666,13 +670,12 @@ pre tt:after {
   font-size: 16px;
   font-weight: 200;
   width: auto;
-  height: 100%;
+  height: 390px;
   display: flex;
   flex-direction: column;
   flex: 0 0 auto;
   flex-basis: 35.71429vw;
   width: 35.71429vw;
-  margin-bottom: 50px;
 }
 
 
@@ -681,8 +684,8 @@ pre tt:after {
 }
 
 .project-text-item-title {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 100;
 }
 
 
@@ -706,8 +709,19 @@ pre tt:after {
 .card-image-div {
   flex: 0 0 auto;
   flex-basis: 42.85714vw;
-  width: 42.85714vw;
+  height: 390px;
+  width: 548px;
+  margin: 0;
 }
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  margin: 0;
+}
+
 
 .card-link a {
     text-decoration: none;

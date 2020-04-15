@@ -17,7 +17,7 @@ const ProjectCardLeft = (props) => {
           <p className="project-text-item-link-container">
             <img className="arrow-image" src={ArrowImg} alt={"an arrow pointing to the right"}/>
           <a className="project-link" href={props.github}>github</a>
-          { props.deployed ? <a className="project-link" href={props.deployed}>deployed</a> : null }
+          { props.deployed ? <a className="project-link" href={props.deployed}>visit</a> : null }
           </p>
         <p className="project-text-item-stack">{props.technologies}</p>
         <p className="project-text-item-team">{props.team}</p>
