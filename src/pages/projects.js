@@ -8,7 +8,7 @@ import ProjectData from './projectData'
 
 const Projects = () => (
   <Layout>
-    <SEO title="Projects" />
+    <SEO title="Julia Catalano Projects" />
     <div className="projects-div">
       {ProjectData.map((project,index) => {
           if (index % 2 === 0) {
