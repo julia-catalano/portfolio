@@ -42,7 +42,7 @@ const Layout = ({ children }) => {
           >
           portfolio built by playing around with
           {` `}
-          <a href="https://www.gatsbyjs.org">gatsby</a>
+          <a style={{color: 'black', textDecoration: 'none',}} href="https://www.gatsbyjs.org">gatsby</a>
         </footer>
       </div>
     </>

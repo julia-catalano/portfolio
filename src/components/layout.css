@@ -854,6 +854,18 @@ pre tt:after {
     margin-right: 4rem;
 }
 
+.about-card-description-julia a:link {
+  text-decoration: none;
+  color: black;
+  font-family: Ginto,helvetica,"sans-serif";
+  font-weight: 100;
+  font-size: 16px;
+}
+
+.about-card-description-julia a:hover {
+  color: gray;
+}
+
 .about-card-description-p2 {
   font-weight: 100;
   margin-left: 4rem;
@@ -919,4 +931,27 @@ pre tt:after {
 
 .new-york {
   width: 50%;
+}
+
+.artists {
+  align-self: center;
+  border-bottom: solid;
+  border-width: .5px;
+}
+
+.artists-text {
+  margin: 1rem;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.artists-text a:link {
+  text-decoration: none;
+  color: black;
+  font-family: Ginto,helvetica,"sans-serif";
+
+}
+
+.artists-text a:hover {
+  color: gray;
 }
