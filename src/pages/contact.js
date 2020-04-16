@@ -9,7 +9,7 @@ import GitHub from '../images/github.png'
 
 const Contact = () => (
   <Layout>
-    <SEO title="Contact" />
+    <SEO title="Contact Julia Catalano" />
     <div className="contact-container">
       <div className="contact-content-container">
         <p className="contact-content">Interested in collaborating?</p>

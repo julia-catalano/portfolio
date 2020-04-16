@@ -9,7 +9,7 @@ import SEO from "../components/seo"
 
 const About = () => (
   <Layout>
-    <SEO title="About" />
+    <SEO title="About Julia Catalano" />
     <div className="about-container">
       <div className="about-card">
         <div className="about-card-image-div">
