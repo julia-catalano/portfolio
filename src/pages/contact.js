@@ -19,10 +19,10 @@ const Contact = () => (
           <a href="mailto:jcc814@nyu.edu">
             <img className="logo-icon" src={Email} />
           </a>
-          <a href='https://www.linkedin.com/in/juliacatalano/'>
+          <a href='https://www.linkedin.com/in/juliacatalano/' target="_blank">
             <img className="logo-icon" src={LinkedIn} />
           </a>
-          <a href='https://github.com/julia-catalano'>
+          <a href='https://github.com/julia-catalano' target="_blank">
             <img  className="logo-icon" src={GitHub} />
           </a>
         </div>
