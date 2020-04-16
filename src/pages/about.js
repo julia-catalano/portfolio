@@ -42,7 +42,7 @@ const About = () => (
         </div>
       </div>
       <div className="artists">
-        <p className="artists-text">Artists - Thank you to <a href="http://www.ebbsnflowsphotography.com/" target="_blank">Adeline Nieto</a> for the portrait, and to <a href="https://www.etsy.com/shop/tuskandcardinal" target="_blank">Lindsay Swearingen</a> for the commissioned logo.</p>
+        <p className="artists-text">Artists - Thank you to <a href="http://www.ebbsnflowsphotography.com/" target="_blank">Ebbs 'N' Flows Photography</a> for the portrait, and to <a href="https://www.etsy.com/shop/tuskandcardinal" target="_blank">Tusk and Cardinal</a> for the commissioned logo.</p>
       </div>
     </div>
   </Layout>
