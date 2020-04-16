@@ -37,6 +37,7 @@ const Layout = ({ children }) => {
           style={{
             fontSize: `10px`,
             fontFamily: `arial`,
+            marginLeft: '10px',
           }}
           >
           portfolio built by playing around with

@@ -815,6 +815,8 @@ pre tt:after {
   height: 100%;
   object-fit: cover;
   margin: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
 }
 
 
@@ -869,4 +871,52 @@ pre tt:after {
 
 .about-card-description-p2 a:hover {
   color: gray;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-content-container {
+  display: flex;
+  flex-direction: column;
+  margin: 8rem;
+}
+
+.contact-content {
+  margin-left: 1rem;
+  /* margin-bottom: .5rem; */
+  font-size: 30px;
+  font-weight: 100;
+  margin-top: 2rem;
+}
+
+.contact-content-line2 {
+  margin-left: 5rem;
+  font-size: 23px;
+  font-weight: 100;
+}
+
+.contact-content-p2 {
+  margin-top: 3rem;
+  font-size: 18px;
+  font-weight: 100;
+  margin-left: 1rem;
+}
+
+.contact-icons {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.logo-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 2rem;
+}
+
+.new-york {
+  width: 50%;
 }

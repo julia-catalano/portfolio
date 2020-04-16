@@ -18,7 +18,7 @@ const About = () => (
         <div className="about-card-content-julia">
           <p className='about-card-name'>Julia</p>
           <p className="about-card-description-julia">I'm a naturally curious writer of prose turned writer of code. I'm excited by the ability to pull from diverse sources to solve large problems - a practice coding, analytical writing, and teaching yoga all share. I completed the Grace Hopper Program in 2019, and the NYU MA in English in 2019. Currently coding in JavaScript, but excited to learn!</p>
-          <p className="about-card-description-p2">Everything I approach I do so with curiosity, empathy, and resilience. I see technology as a tool to empower and connect people. I'm always looking to work with bright, kind, diverse teams to find dynamic solutions to the complex problems people face in their daily lives. Have an idea in mind?
+          <p className="about-card-description-p2">Everything I approach I do so with curiosity, empathy, and resilience. I see technology as a tool to empower and connect people. I'm always looking to work with bright, kind, diverse teams to find dynamic solutions to the complex problems people face in their daily lives. I'm based in New York. Have an idea in mind?
             Let's <a href="mailto:jcc814@nyu.edu">chat!</a>
           </p>
         </div>
