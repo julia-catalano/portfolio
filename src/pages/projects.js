@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import ProjectCardLeft from '../components/projectCardLeft'
 import ProjectCardRight from '../components/projectCardRight'
-import ProjectData from './projectData'
+import ProjectData from '../../projectData.js'
 
 const Projects = () => (
   <Layout>
