@@ -957,3 +957,62 @@ pre tt:after {
 .artists-text a:hover {
   color: gray;
 }
+
+
+
+
+@media all and (max-width: 500px) {
+  .homepage-container {
+    display: block;
+  }
+  .homepage-image {
+    width: 100%;
+  }
+  .homepage-content {
+    width: 100%
+  }
+
+  .card-container {
+    display: block;
+  }
+
+  .card-image {
+    width: 100%;
+  }
+
+  .card-content-wrapper-left {
+    width: 100%
+  }
+
+  .card-content-wrapper-right {
+    width: 100%;
+  }
+
+  .about-card {
+    display: block;
+  }
+
+  .about-card-content {
+    width: 100%;
+  }
+
+  .about-card-content-julia {
+    width: 100%;
+  }
+
+  .about-card-image-div {
+    width: 100%
+  }
+
+  .contact-container {
+    display: block;
+  }
+
+  .contact-content-container {
+    width: 100%;
+  }
+
+  .new-york {
+    width: 100%;
+  }
+}
