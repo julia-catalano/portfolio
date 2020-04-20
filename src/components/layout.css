@@ -766,7 +766,7 @@ pre tt:after {
 .homepage-image {
   width: 55%;
   margin-right: 1rem;
-  object-fit: scale-down;
+  object-fit: contain;
 }
 
 .homepage-name {
@@ -932,6 +932,7 @@ pre tt:after {
 
 .new-york {
   width: 50%;
+  object-fit: contain;
 }
 
 .artists {
