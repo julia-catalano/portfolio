@@ -661,6 +661,7 @@ pre tt:after {
   flex: 0 0 auto;
   flex-basis: 35.71429vw;
   margin-right: 6rem;
+  overflow: visible;
 }
 
 .card-content-wrapper-right {
@@ -679,6 +680,7 @@ pre tt:after {
   flex-basis: 35.71429vw;
   width: 35.71429vw;
   margin-left: 6rem;
+  overflow: visible;
 }
 
 
