@@ -983,11 +983,13 @@ pre tt:after {
   }
 
   .card-content-wrapper-left {
-    width: 100%
+    width: 100%;
+    margin: 0;
   }
 
   .card-content-wrapper-right {
     width: 100%;
+    margin: 0;
   }
 
   .about-card {
@@ -1012,6 +1014,7 @@ pre tt:after {
 
   .contact-content-container {
     width: 100%;
+    margin: 0;
   }
 
   .new-york {
