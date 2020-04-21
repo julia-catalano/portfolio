@@ -642,7 +642,8 @@ pre tt:after {
   flex: 0 1 auto;
   flex-direction: row;
   overflow: hidden;
-  margin-bottom: 50px;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
 }
 
 .card-content-wrapper-left {
@@ -651,7 +652,7 @@ pre tt:after {
   padding-right: 10px;
   padding-bottom: 10px;
   font-size: 16px;
-  font-family: Ginto,helvetica,"sans-serif";
+  font-family: Ginto, helvetica,"sans-serif";
   font-weight: 200;
   height: 390px;
   width: auto;
@@ -659,7 +660,7 @@ pre tt:after {
   flex-direction: column;
   flex: 0 0 auto;
   flex-basis: 35.71429vw;
-  margin-right: 4rem;
+  margin-right: 6rem;
 }
 
 .card-content-wrapper-right {
@@ -667,7 +668,7 @@ pre tt:after {
   padding-right: 10px;
   padding-top: 50px;
   padding-bottom: 10px;
-  font-family: Ginto,helvetica,"sans-serif";
+  font-family: Ginto, helvetica,"sans-serif";
   font-size: 16px;
   font-weight: 200;
   width: auto;
@@ -677,7 +678,7 @@ pre tt:after {
   flex: 0 0 auto;
   flex-basis: 35.71429vw;
   width: 35.71429vw;
-  margin-left: 4rem;
+  margin-left: 6rem;
 }
 
 
@@ -686,26 +687,28 @@ pre tt:after {
 }
 
 .project-text-item-title {
-  font-size: 18px;
-  font-weight: 100;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
 }
 
 
 .project-text-item-description {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .project-text-item-stack {
   font-size: 14px;
   font-weight: 500;
-  margin-bottom: .5rem;
+  margin-bottom: 2rem;
+  margin-top: .5rem;
 }
 
 .project-text-item-team {
-  font-size: 14px;
-  margin-bottom: .5rem;
+  font-size: 12px;
+  margin-top: 1.5rem;
 }
 
 .card-image-div {
@@ -729,13 +732,18 @@ pre tt:after {
     text-decoration: none;
     color: black;
     font-family: Ginto,helvetica,"sans-serif";
-    font-weight: 600;
-    font-size: 14px;
+    font-weight: 100;
+    font-size: 12px;
 }
 
 
 .project-link {
-  margin: 1rem;
+  border: solid;
+  border-radius: 5px;
+  border-width: .5px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-right: 3rem;
 }
 
 .project-text-item-link-container {
@@ -747,15 +755,6 @@ pre tt:after {
 
 .card-link a:hover {
   color: grey;
-}
-
-
-.arrow-image {
-  width: 100px;
-  margin-left: 1rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-right: 4rem;
 }
 
 .homepage-container {
@@ -825,6 +824,7 @@ pre tt:after {
   display: flex;
   flex-direction: column;
   margin-top: 5rem;
+  overflow: visible;
 }
 
 .about-card-content-julia {
@@ -878,7 +878,7 @@ pre tt:after {
   text-decoration: none;
   color: black;
   font-family: Ginto,helvetica,"sans-serif";
-  font-weight: 100;
+  font-weight: 600;
   font-size: 16px;
 }
 
