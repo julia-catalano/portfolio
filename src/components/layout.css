@@ -1101,6 +1101,7 @@ pre tt:after {
   .yoga-card-content {
     margin: 0;
     width: 100%;
+    padding: 0;
   }
 
   .yoga-card-name {
