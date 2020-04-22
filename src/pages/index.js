@@ -14,7 +14,7 @@ const IndexPage = () => (
       <div className="homepage-content">
           <p className="homepage-name">Julia</p>
           <p className="homepage-name-last">Catalano</p>
-          <p className="homepage-detail">software engineer</p>
+          <p className="homepage-detail-software"><Link to="/projects/">software engineer</Link></p>
           <p className="homepage-detail">yoga instructor</p>
           <p className="homepage-detail">MA, English</p>
       </div>

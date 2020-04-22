@@ -787,6 +787,21 @@ pre tt:after {
   margin-bottom: .5rem;
 }
 
+.homepage-detail-software {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: .8rem;
+}
+
+.homepage-detail-software a {
+  text-decoration: none;
+  color: black;
+}
+
+.homepage-detail-software a:hover {
+  color: gray
+}
+
 .homepage-content {
   margin-top: 10rem;
 }
@@ -948,6 +963,68 @@ pre tt:after {
   font-size: 14px;
   font-weight: 100;
 }
+
+
+/* .overlay {
+
+} */
+
+.yoga-card {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  display: inline-block;
+  text-align: center;
+}
+
+.yoga-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0;
+}
+
+.yoga-image-container {
+  position: absolute;
+  width: 100%;
+  height: 800px;
+}
+
+.yoga-card-content {
+  position: absolute;
+  z-index: 100;
+  padding: 10rem;
+  padding-top: 15rem;
+  font-family: Ginto,helvetica,"sans-serif";
+  color: white;
+  background: rgba(0, 0, 0, .4);
+  height: 100%;
+}
+
+.yoga-card-content a {
+  text-decoration: underline;
+  color: white;
+  font-weight: 600;
+}
+
+.yoga-card-description {
+  margin-bottom: 1rem;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.yoga-card-content a:hover {
+  color: gray;
+}
+
+.yoga-card-name {
+  margin-bottom: 3rem;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: right;
+}
+
+
 
 .artists-text a:link {
   text-decoration: none;
