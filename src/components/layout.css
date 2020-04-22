@@ -1097,4 +1097,14 @@ pre tt:after {
   .new-york {
     width: 100%;
   }
+
+  .yoga-card-content {
+    margin: 0;
+    width: 100%;
+  }
+
+  .yoga-card-name {
+    margin: 0;
+  }
+
 }
